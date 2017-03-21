@@ -13,7 +13,7 @@ import stuyvision.gui.VisionGui;
 
 public class Main {
     public static void main(String[] args) {
-        ModuleRunner runner = new ModuleRunner(5);
+        ModuleRunner runner = new ModuleRunner(120);
         processCamera(runner);
         VisionGui.begin(args, runner);
     }
